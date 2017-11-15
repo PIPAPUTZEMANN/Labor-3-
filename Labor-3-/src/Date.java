@@ -73,6 +73,6 @@ public class Date {
 	}
 	
 	public String toString() {
-		return day+"."+month+"."+year; // TODO: Format stimmt noch nicht
+		return String.format("%02d.%02d.%04d", day, month, year);
 	}
 }
